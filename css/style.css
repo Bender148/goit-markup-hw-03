@@ -76,25 +76,34 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+
+    box-sizing: border-box;
 }
 
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    box-sizing: border-box;
 }
 
 .section-hero{
     padding-top: 200px;
     padding-bottom: 200px;
 
+    box-sizing: border-box;
 }
 .section-specials {
     padding-top: 94px;
+
+    box-sizing: border-box;
 }
 
 .about {
     padding-top: 60px;
     padding-bottom: 60px;
+
+    box-sizing: border-box;
 }
 
 /*=========END-COMPONENTS=========*/
@@ -255,6 +264,8 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--addited-text-color);
+
+    width: 270px;
 }
 
 .activities-title {
@@ -276,6 +287,7 @@ img {
 .activities-img {
     margin-left: 30px;
 
+    flex-basis: calc(100% / 3 - 30px);
 }
 
 .team {
@@ -302,6 +314,8 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     border-color: var(--border-color);
+
+    flex-basis: calc(100% / 4 - 30px);
 }
 
 .info {
@@ -450,6 +464,8 @@ img {
 .portfolio-img {
     margin-top: 30px;
     margin-left: 30px;
+
+    flex-basis: calc(100% / 3 - 30px);
 }
 .branch {
     font-family: var(--main-font);
